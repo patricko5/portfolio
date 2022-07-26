@@ -1,17 +1,33 @@
 import React from "react";
 import "./topbar.scss";
-const Topbar = () => {
+import { Person, Mail } from "@material-ui/icons";
+
+const Topbar = ({ menuOpen, setMenuOpen }) => {
   return (
-    <div className="topbar">
+    <div className={"topbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
-          {/*it will redirect to its desired page. */}
-          <a href="#intro">Intro</a>
+          <a href="#intro" className="logo">
+            youKnow.
+          </a>
+          <div className="itemContainer">
+            <Person className="icon" />
+            <span>+1 232 234 2234</span>
+          </div>
+          <div className="itemContainer">
+            <Mail className="icon" />
+            <span>zz@youknow.com</span>
+          </div>
         </div>
-        <div className="right"></div>
+        <div className="right">
+          <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+            <span className="line1"></span>
+            <span className="line2"></span>
+            <span className="line3"></span>
+          </div>
+        </div>
       </div>
     </div>
   );
 };
-
 export default Topbar;
