@@ -1,5 +1,6 @@
+@import '../../index.scss';
 .works {
-  background-color: rgb(183, 247, 9);
+  background-color: $mainColor;
   display: flex;
   align-items: center;
   justify-content: center;

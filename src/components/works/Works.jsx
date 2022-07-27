@@ -10,14 +10,12 @@ const Works = () => {
       icon: "./assets/weather.png",
       title: "Web Design",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-      // img: "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
     },
     {
       id: "2",
       icon: "./assets/weather.png",
       title: "Mobile Application",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      // img: "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
     },
   ];
   const handleClick = (direction) => {

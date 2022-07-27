@@ -8,15 +8,15 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-            youKnow.
+            re-fresh
           </a>
           <div className="itemContainer">
             <Person className="icon" />
-            <span>+1 232 234 2234</span>
+            <span>+1 587 817 2994</span>
           </div>
           <div className="itemContainer">
             <Mail className="icon" />
-            <span>zz@youknow.com</span>
+            <span>ceo@re-fresh.com</span>
           </div>
         </div>
         <div className="right">

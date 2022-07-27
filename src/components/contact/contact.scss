@@ -1,3 +1,4 @@
+@import '../../index.scss';
 .contact {
     background-color: white;
     display: flex;
@@ -41,7 +42,7 @@
                 width: 150px;
                 height: 40px;
                 color: white;
-                background-color: rgb(89, 143, 202);
+                background-color: $mainColor;
                 border: none;
                 font-size: 20px;
                 border-radius: 20px;
