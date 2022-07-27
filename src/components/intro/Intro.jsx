@@ -10,7 +10,8 @@ const Intro = () => {
       showCursor: true,
       cursorChar: "|",
       strings: ["Software Developer", "UI Designer"],
-    });}, []);
+    });
+  }, []);
   return (
     <div className="intro" id="intro">
       <div className="left">
@@ -22,7 +23,9 @@ const Intro = () => {
         <div className="wrapper">
           <h2>Hello World, I'm</h2>
           <h1>Patrick Orihuela</h1>
-          <h2><span ref={textRef}></span></h2>
+          <h2>
+            <span ref={textRef}></span>
+          </h2>
         </div>
         <a href="#portfolio">
           <KeyboardArrowDown className="arrow" />
